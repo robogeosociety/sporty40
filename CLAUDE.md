@@ -91,3 +91,11 @@ Markdown body here. Supports **bold**, *italic*, [links](url), and inline images
 ### Environment
 
 Mapbox token via `VITE_MAPBOX_ACCESS_TOKEN` in `.env` (see `.env.example`). Never committed.
+## Pull requests — the "newspaper" framework
+
+PR descriptions follow the **newspaper / information-pyramid** format: one self-contained
+front page (kicker → headline → dek → masthead → why → what → mermaid flow → screens →
+verification → risk) that reads top-to-bottom on an iPad-mini portrait display (1–2 pages;
+up to 4 for very complex *code* changes). Rebuild from the **full** diff, never append.
+Full rules: <https://github.com/tommyroar/.github/blob/main/PR_FRAMEWORK.md>. CI validates
+the body via the `pr-newspaper` workflow (the reusable gate in `tommyroar/pr-newspaper`).
